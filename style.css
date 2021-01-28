@@ -71,3 +71,76 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+:root {
+  --clr-primary: #ffffff;
+  --clr-secondary: #000000;
+
+  --ff-navbar: "Roboto";
+}
+
+/* Navbar */
+
+nav ul {
+  display: flex;
+  list-style: none;
+
+  text-transform: uppercase;
+  
+  font-family: var(--ff-navbar);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+/* identical to box height */
+  align-items: center;
+  text-align: center;
+
+  color: var(--clr-secondary);
+
+  
+}
+
+nav a {
+  display: inline-block;
+  color: var(--clr-secondary);
+  text-decoration: none;
+  
+  
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--clr-accent);
+  text-decoration: underline;
+  
+}
+
+.cards {
+  float: right;
+}
+
+.card1 {
+  position: absolute;
+  width: 670.57px;
+  height: 491.66px;
+  left: 774.28px;
+  top: -19.52px;
+  
+  background: #272838;
+  opacity: 0.8;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.card2 {
+  position: absolute;
+  width: 670.57px;
+  height: 491.66px;
+  left: 737.75px;
+  top: 32.49px;
+  
+  background: #272838;
+  opacity: 0.8;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
