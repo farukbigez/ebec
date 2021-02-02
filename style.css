@@ -72,11 +72,16 @@ select {
   }
 }
 
+header {
+  background: rgba(255, 255, 255, 0.9);
+}
+
 :root {
   --clr-primary: #ffffff;
   --clr-secondary: #000000;
 
   --ff-navbar: "Roboto";
+  --ff-card: "Rockwell";
 }
 
 /* Navbar */
@@ -117,8 +122,18 @@ nav a:focus {
   
 }
 
+.nav__list-item {
+  padding-left: 2.5em;
+}
+
+/* Cards */
+
 .cards {
-  float: right;
+  position: absolute;
+  left: 476px;
+  top: -20px;
+  margin-left: auto;
+  
 }
 
 .card1 {
@@ -143,4 +158,69 @@ nav a:focus {
   background: #272838;
   opacity: 0.8;
   transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.card-texts {
+  padding-left: 2.5em;
+  padding-top: 2em;
+}
+
+.card-title {
+  width: 619.7px;
+  height: 174.2px;
+  font-family: var(--ff-card);
+  font-size: 144px;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.card-message {
+  width: 615.7px;
+  font-family: var(--ff-card);
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-align: center;
+  color: var(--clr-primary);
+}
+
+.card-message span {
+  color: #eda225;
+}
+
+.card-title span {
+  color: #eda225;
+}
+
+/* Button */
+
+.apply-button {
+  border-radius: 53px;
+  box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 4px;
+  border-image-source: linear-gradient(to top, #0270bb, #c6e357, rgba(255, 153, 0, 0.9));
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff), linear-gradient(to top, #0270bb, #c6e357, rgba(255, 153, 0, 0.9));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+
+  margin-left: 8em;
+  margin-top: 3em;
+}
+
+.apply-button-text {
+  width: 319.74px;
+  
+  font-family: Work Sans;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #272838;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
 }
