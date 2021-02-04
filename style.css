@@ -87,14 +87,15 @@ header {
 :root {
   --clr-primary: #ffffff;
   --clr-secondary: #000000;
+  --clr-lower-card: #EDA226;
 
   --ff-navbar: "Roboto";
   --ff-card: "Rockwell";
   --ff-secondary: "Work Sans";
+  --ff-lower-card: "Red Hat Display";
 }
 
 /* Navbar */
-
 
 nav {
   padding: 0.75em;
@@ -107,17 +108,17 @@ nav ul {
   list-style: none;
   text-transform: uppercase;
   
-  font-family: var(--ff-navbar);
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-
-/* identical to box height */
+  
+  /* identical to box height */
   align-items: center;
   text-align: center;
 
   color: var(--clr-secondary);
+  font-family: var(--ff-navbar);
 
   
 }
@@ -141,7 +142,9 @@ nav a:focus {
 
 /* Cards */
 
-.cards {
+/* Upper Card */
+
+.upper-cards {
   position: absolute;
   left: 480.5px;
   top: -20px;
@@ -223,6 +226,40 @@ nav a:focus {
   color: var(--clr-primary);
 }
 
+/* Lower Card */
+
+.lower-cards {
+  position: absolute;
+  width: 743.5px;
+  height: 484.51px;
+  top: 529.31px;
+  left: -46.5em;
+}
+
+.card3 {
+  position: absolute;
+  width: 670.57px;
+  height: 491.66px;
+  left: 774.28px;
+  top: -19.52px;
+  
+  background: #272838;
+  opacity: 0.8;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.card4 {
+  position: absolute;
+  width: 670.57px;
+  height: 491.66px;
+  left: 737.75px;
+  top: 32.49px;
+  
+  background: #272838;
+  opacity: 0.8;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
 /* Button */
 
 .apply-button {
@@ -254,3 +291,50 @@ nav a:focus {
   
 }
 
+.due-date {
+  padding-top: 0.5em;
+  text-align: center;
+  font-weight: 500;
+  font-size: 48px;
+  text-transform: uppercase;
+
+  font-family: var(--ff-lower-card);
+  color: var(--clr-primary)
+}
+
+.date {
+  padding-bottom: 0.5em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.045em;
+  
+  font-family: var(--ff-navbar);
+  color: var(--clr-lower-card);
+}
+
+.where-to-do {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  
+  color: var(--clr-primary);
+  font-family: var(--ff-lower-card);
+}
+
+.where {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: var(--clr-lower-card);
+  font-family: var(--ff-lower-card);
+
+}
