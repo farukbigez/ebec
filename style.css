@@ -35,6 +35,13 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+
+  background-image: url('img/Group\ 50.jpg');
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* A elements that don't have a class get default styles */
@@ -74,6 +81,7 @@ select {
 
 header {
   background: rgba(255, 255, 255, 0.9);
+  
 }
 
 :root {
@@ -87,10 +95,16 @@ header {
 
 /* Navbar */
 
+
+nav {
+  padding: 0.75em;
+}
+
+nav > ul {margin: 0;}
+
 nav ul {
   display: flex;
   list-style: none;
-
   text-transform: uppercase;
   
   font-family: var(--ff-navbar);
@@ -112,26 +126,24 @@ nav a {
   display: inline-block;
   color: var(--clr-secondary);
   text-decoration: none;
-  
-  
 }
 
 nav a:hover,
 nav a:focus {
-  color: var(--clr-accent);
-  text-decoration: underline;
+  color: var(--clr-secondary);
   
 }
 
 .nav__list-item {
   padding-left: 2.5em;
+  align-items: center;
 }
 
 /* Cards */
 
 .cards {
   position: absolute;
-  left: 475px;
+  left: 480.5px;
   top: -20px;
   align-items: center;  
 }
@@ -195,6 +207,22 @@ nav a:focus {
   color: #eda225;
 }
 
+
+.till {
+  text-align: center;
+  margin-right: 3em;
+  margin-top: 0.750em;
+
+  font-family: var(--ff-secondary);
+  font-weight: 100;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: var(--clr-primary);
+}
+
 /* Button */
 
 .apply-button {
@@ -226,17 +254,3 @@ nav a:focus {
   
 }
 
-.till {
-  text-align: center;
-  margin-right: 3em;
-  margin-top: 0.750em;
-
-  font-family: var(--ff-secondary);
-  font-weight: 100;
-  text-transform: uppercase;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: var(--clr-primary);
-}
