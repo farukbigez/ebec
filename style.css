@@ -90,7 +90,6 @@ header {
   --clr-section-background: #E3E3E3;
 
   --ff-navbar: "Roboto";
-  --ff-card: "Rockwell";
   --ff-secondary: "Work Sans";
   --ff-lower-card: "Red Hat Display";
 }
@@ -183,7 +182,7 @@ nav a:focus {
 .card-title {
   width: 619.7px;
   height: 174.2px;
-  font-family: var(--ff-card);
+  font-family: var(--ff-navbar);
   font-size: 144px;
   text-align: center;
   color: #fcfcfc;
@@ -191,7 +190,7 @@ nav a:focus {
 
 .card-message {
   width: 615.7px;
-  font-family: var(--ff-card);
+  font-family: var(--ff-navbar);
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
@@ -431,4 +430,8 @@ main {
 
 .svg3500 {
   padding-bottom: 4em;
+}
+
+.about-best-big-vector-right {
+
 }
