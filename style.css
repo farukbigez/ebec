@@ -353,7 +353,7 @@ main {
 }
 
 .about-best-vector-left {
-    width: 750.4px;
+    width: 40%;
     float: left;
     height: 128.7px;
     border-top: 128.7px solid #272838;
@@ -361,20 +361,20 @@ main {
 }
 
 .about-best-vector-right {
-  width: 750.4px;
+  width: 40%;
   float: right;
   height: 128.7px;
   border-top: 128.7px solid #272838;
   border-left: 100px solid transparent;
+  overflow: hidden;
 }
 
 .about-best-text {
   position: relative;
   width: 349.1px;
   height: 248.6px;
-  margin: -360px 0px 100px 430.3px;
+  margin: -390px 0px 100px 500px;
   text-align: justify;
-  
   
   font-size: 18px;
   line-height: 185%;
@@ -385,9 +385,10 @@ main {
 }
 
 .besties-pic {
-    width: 521.5px;
-    height: 407.9px;
-    margin: 0px 64.5px 0.1px 0;
+  width: auto;
+  margin: 0;
+  height: 437.9px;
+  padding-left: 0.5em;
 }
   
 
@@ -433,5 +434,42 @@ main {
 }
 
 .about-best-big-vector-right {
+  overflow: hidden;
+  width: 73%;
+  margin-left: auto;
+}
 
+.about-best-big-vector-right::before {
+  content: '';
+  display: block;
+  margin-right: -10px;
+  height: 150px;
+  background: #272838 content-box;
+  padding: 5px;
+  border: 4px solid #EDA226;
+  transform-origin: top;
+  transform: skew(25deg);
+}
+
+
+.flexbox p {
+
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: var(--clr-secondary);
+  font-family: var(--ff-navbar);
+}
+
+.flexbox {
+  width: 18%;
+  height: 10%;
+  border-radius: 24px;
+  border: 7px solid #EDA226;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
 }
