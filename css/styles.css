@@ -754,8 +754,8 @@ input[type='checkbox'] {
 /*     05. Features     */
 /************************/
 .tabs {
-	padding-top: 0.5rem;
-	padding-bottom: 0.25rem;
+	padding-top: 6.9em;
+	padding-bottom: 6.9em;
 	background-color: #ffffff;
 }
 
@@ -784,7 +784,6 @@ input[type='checkbox'] {
 	align-items: center;
 }
 
-
 .vision-logo {
 	width: 50%;
 }
@@ -811,13 +810,12 @@ input[type='checkbox'] {
 	line-height: 120%;
 }
 
-
 /*************************/
 /*     09. Details 1     */
 /*************************/
 .basic-2 {
-	padding-bottom: 5em;
-	padding-top: 5em;
+	padding-bottom: 6.5em;
+	padding-top: 6.5em;
 	background-color: #ffffff;
 }
 
@@ -953,8 +951,8 @@ text-align: justify;
 /* Details 4 */
 
 .basic-6 {
-	padding-top: 3.5rem;
-	padding-bottom: 6.25rem;
+	padding-top: 8em;
+	padding-bottom: 25em;
 	background: url('../images/Group-578.webp') center center no-repeat;
 	background-size: cover;
 }
@@ -983,8 +981,8 @@ text-align: justify;
 /* Details 5 */
 
 .basic-5 {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 7.2em;
+	padding-bottom: 7.2em;
 	background: url('/images/Frame-2.webp') center center no-repeat;
 	background-size: cover;
 }
@@ -1446,6 +1444,7 @@ a:hover.back-to-top {
 	/* Features */
 	.tabs {
 		padding-bottom: 6.5rem;
+		padding-top: 6.5rem;
 	}
 
 	.tabs #tab-1 .card.first {
