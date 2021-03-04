@@ -784,38 +784,57 @@ input[type='checkbox'] {
 	align-items: center;
 }
 
-.vision-logo {
-	width: 50%;
-}
 
-.vision-text {
-	width: 50%;
-	padding-top: 10px;
-  font-size: 1.2rem;
-  line-height: 1.5em;
-  text-align: center;
-  letter-spacing: 0.5em;
-  text-transform: uppercase;
-}
 
-.vision__manifest {
-  font-size: 2.5vh;
-  text-transform: capitalize;
-  padding-bottom: 0.5em;
-}
+	.vision-logo {
+		width: 50%;
+	}
 
-.vision__exp {
-  font-size: 2vh;
-	width: 65%;
-	line-height: 120%;
-}
+	.vision-text {
+		padding-top: 10px;
+		font-size: 1.2rem;
+		line-height: 1.5em;
+		text-align: center;
+		letter-spacing: 0.5em;
+		text-transform: uppercase;
+	}
+
+	.vision__manifest {
+		font-size: 2.5vh;
+		text-transform: capitalize;
+		padding-bottom: 0.5em;
+	}
+
+	.vision__exp {
+		font-size: 2vh;
+		line-height: 120%;
+	}
+	
+	/* Vision */
+	.vision {
+		text-align: center;
+		padding: 1.5em;
+	}
+
+	/* Mission */
+	.mission {
+		text-align: center;
+		padding: 1.5em;
+
+	}
+
+	/* Values */
+	.values {
+		text-align: center;
+		padding: 1.5em;
+	}
 
 /*************************/
 /*     09. Details 1     */
 /*************************/
 .basic-2 {
-	padding-bottom: 6.5em;
-	padding-top: 6.5em;
+	padding-bottom: 7em;
+	padding-top: 7em;
 	background-color: #ffffff;
 }
 
@@ -981,8 +1000,8 @@ text-align: justify;
 /* Details 5 */
 
 .basic-5 {
-	padding-top: 7.2em;
-	padding-bottom: 7.2em;
+	padding-top:8em;
+	padding-bottom:8em;
 	background: url('/images/Frame-2.webp') center center no-repeat;
 	background-size: cover;
 }
@@ -1129,8 +1148,6 @@ a:hover.back-to-top {
 /*****************************/
 /* Min-width width 768px */
 @media (min-width: 768px) {
-
-
 
 	/* General Styles */
 	.p-heading {
@@ -1411,6 +1428,12 @@ a:hover.back-to-top {
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
 
+	.tabs .col {
+		flex-wrap: wrap;
+		text-align: center;
+		padding-right: 4em;
+	}
+
 	/* Navigation */
 	.navbar-custom {
 		padding: 2.125rem 5rem 2.125rem 5rem;
@@ -1598,6 +1621,11 @@ a:hover.back-to-top {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.apply-button:hover {
+	content: 'Apply';
+	background-color: beige;
+}
+
 
 /* About Best */
 
@@ -1665,7 +1693,7 @@ a:hover.back-to-top {
 		display: unset;
 	}
 
-	.numbers {
+	.tabs .col {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
@@ -1690,7 +1718,6 @@ a:hover.back-to-top {
 		display: flex;
 		flex-wrap: wrap;
 		flex-basis: 100%;
-		padding-left: 7rem;
 	}
 
 	.vision__exp {
@@ -1698,7 +1725,7 @@ a:hover.back-to-top {
 		font-size: 1.5rem;
 	}
 
-	.numbers {
+	.tabs .col {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
@@ -1718,7 +1745,11 @@ a:hover.back-to-top {
 
 }
 
-.besties-vibin {
+.tabs .container {
+	padding: 2rem;
+}
+
+.tabs .img-fluid {
 	max-width: 100%;
 	height: auto;
 	padding: 1rem;
@@ -1726,16 +1757,16 @@ a:hover.back-to-top {
 
 }
 
-.text__column-one {
-	padding-top: 1em;
-	width: 15em;
-	height: auto;
+.tabs .text-container {
+	padding: 1em;
+	padding-bottom: 2em;
+	width: 25rem;
 	color: #000000;
 	font-size: 1.5rem;
 	font-size-adjust: 0.5rem;
   line-height: 1.8em;
   text-align: center;
-
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .column-two{
@@ -1746,19 +1777,19 @@ a:hover.back-to-top {
 
  .svg-numbers {
 	padding-bottom: 1.5em;
-	padding-right: 1em;
+	padding-right: 1.5em;
 }
 
 .svgs {
-	padding-left: 6rem;
+	text-align: center;
+	padding: 2rem;
 }
 
-.numbers {
-	display: flex;
+.tabs .col {
 	justify-content: center;
-	align-items: center;
-
-	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	grid: auto;
 }
 
 .vector-big__about-best {
