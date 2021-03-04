@@ -949,11 +949,12 @@ text-align: justify;
 .basic-7 .text-container {
 	margin-bottom: 3.5rem;
 	font-size: 16rem;
+	line-height: 0.1;
 }
 
 
 .basic-7 .btn-solid-reg {
-	margin-top: 0.5rem;
+	margin-top: 10em;
 }
 
 .basic-7 p {
@@ -1394,6 +1395,8 @@ a:hover.back-to-top {
 	.basic-3 .text-container {
 		margin-top: 2.5rem;
 		margin-bottom: 0;
+		line-height: 0.1;
+
 	}
 
 	/* Details 3 */
