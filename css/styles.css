@@ -1915,7 +1915,9 @@ select {
 
 .basic-8 {
 	background: #ffffff;
-	overflow-x: hidden;
+	padding-bottom: 6.5em ;	
+	padding-top: 6.5em;
+	overflow-x: hidden;	
 }
 
 .basic-8 .text1 {
@@ -1953,16 +1955,42 @@ select {
   border: 4px solid #EDA226;
 }
 
-.basic-8 .text1__div {
+/* Cards */
+
+.basic-8 .card {
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	border: inherit;
+} 
+
+.basic-8 a {
+	text-decoration: none;
+}
+
+.basic-8 .card-title {
+	text-align: center;
+	font-size: 2rem;
+	color: #313131;
+	line-height: 120%;
+}
+
+.basic-8 .card-text {
+	color: #313131;
+	font-size: 1.2rem;
+	line-height: 160%;
+	font-weight: 500;
+}
+
+.basic-8 .col.mb-4 {
+	padding: 3em;
+}
+
+/* .basic-8 .text1__div {
 	background: url('../images/turk-telekom-seeklogo.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;	
-}
-
-.basic-8 blockquote {
-	color: #000000;
-	font-size: 1.5rem;
 }
 
 .basic-8 .text2__div {
@@ -1971,4 +1999,11 @@ select {
 	text-align: center;
 	background-position: center;
 	background-size: contain;
+} */
+
+
+
+.basic-8 blockquote {
+	color: #000000;
+	font-size: 1.5rem;
 }
