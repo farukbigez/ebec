@@ -1732,9 +1732,11 @@ a:hover.back-to-top {
 
 	.apply-button a {
 		font-size: 2rem;
+		padding: ;
 	}
 	.apply-button {
 		margin-top: 4.5em;
+		padding: 0.1em;
 	}
 
 	.cards {
