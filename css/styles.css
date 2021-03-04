@@ -1731,7 +1731,9 @@ a:hover.back-to-top {
 @media (max-width: 768px) {
 
 	.apply-button a {
-		font-size: 1.5rem;
+		font-size: 2rem;
+	}
+	.apply-button {
 		margin-top: inherit;
 	}
 
