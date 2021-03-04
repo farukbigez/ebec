@@ -975,6 +975,7 @@ text-align: justify;
 	padding-bottom: 25em;
 	background: url('../images/Group-578.webp') center center no-repeat;
 	background-size: cover;
+	line-height: 0.1;
 }
 
 .basic-6 .text-container {
@@ -1574,7 +1575,6 @@ a:hover.back-to-top {
 .card1-block {
 	display: flex;
 	justify-content: flex-end;
-	margin: 0;
 }
 
 .card1-block a {
@@ -1597,7 +1597,7 @@ a:hover.back-to-top {
 	justify-content: start;
 }
 
-.apply-button {
+/* .apply-button {
   position: absolute;
 	margin-top: 8rem;
 
@@ -1611,11 +1611,11 @@ a:hover.back-to-top {
   background-clip: content-box, border-box;
 	background-image: linear-gradient(to bottom, #ffffff, #ffffff), linear-gradient(to top, #0270bb, #c6e357, rgba(255, 153, 0, 0.9));
 }
+*/
 
-
-.apply-button p {
-	padding: 1rem 2em 1rem 2em;
-  font-size: 2rem;
+.apply-button a {
+	padding: 0.5em;
+  font-size: 2.5rem;
   text-transform: uppercase;
 	min-height: 100%;
 
@@ -1624,9 +1624,51 @@ a:hover.back-to-top {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.apply-text {display: inline-flex;}
+
+.showOnHover{display : none;}
+.apply-button:hover .showOnHover{
+    display : inline-flex;
+}
+
+.showOnHover{display : none;}
+.apply-button:active .showOnHover{
+    display : inline-flex;
+}
+
+.apply-button:hover .notShowOnHover {
+	display: none;
+
+} 
+
+.apply-button:active .notShowOnHover {
+	display: none;
+
+} 
+
 .apply-button:hover {
-	content: 'Apply';
-	background-color: beige;
+   display: inline-flex;
+   text-align : center;
+}
+
+.apply-button:active {
+   display: inline-flex;
+   text-align : center;
+}
+
+.apply-button {
+		position: absolute;
+    display : inline-flex;
+    margin-top: 8rem;
+    border-radius: 5em;
+    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.25);
+    border-style: solid;
+    border-width: 0.275rem;
+    border-image-slice: 0;
+    border-image-source: linear-gradient(to top, #0270bb, #c6e357, rgba(255, 153, 0, 0.9));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff), linear-gradient(to top, #0270bb, #c6e357, rgba(255, 153, 0, 0.9));
 }
 
 
