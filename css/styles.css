@@ -2045,6 +2045,11 @@ select {
 	padding: 3em;
 }
 
+.basic-8 img {
+	width: 360px;
+	height: 360px;
+}
+
 /* .basic-8 .text1__div {
 	background: url('../images/turk-telekom-seeklogo.svg');
 	background-repeat: no-repeat;
@@ -2059,10 +2064,3 @@ select {
 	background-position: center;
 	background-size: contain;
 } */
-
-
-
-.basic-8 blockquote {
-	color: #000000;
-	font-size: 1.5rem;
-}
