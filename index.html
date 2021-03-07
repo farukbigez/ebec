@@ -82,12 +82,33 @@
                 <div class="card1-block">
                     <div class="card1">
                         <img class="card1" src="images/Group-51.webp" alt="alternative">
-                        <p class="apply-button"> <span class="notShowOnHover"> <a class="apply-text" href="/">Apply </a> </span> <span class="showOnHover"><a role="button" href="https://docs.google.com/forms/d/1kyMm1lijPO4SMFbjKDloa8naEmMGW6JoZtF214yUwS0/viewform?edit_requested=true" target="_blank">Case Study</a> | <a role="button" href="https://docs.google.com/forms/d/1dekrmOtSXJDFDOJ92Xae2cSH0RRfthbGgERw53iAHzw/viewform?edit_requested=true" target="_blank">Team Design</a></span></p>
+                        <p class="apply-button"> <span class="notShowOnHover"> <a class="apply-text" href="/">Apply </a> </span> <span class="showOnHover"><a role="button" href="https://docs.google.com/forms/d/1kyMm1lijPO4SMFbjKDloa8naEmMGW6JoZtF214yUwS0/viewform?edit_requested=true" target="_blank">Case Study</a><a role="button" href="https://docs.google.com/forms/d/1dekrmOtSXJDFDOJ92Xae2cSH0RRfthbGgERw53iAHzw/viewform?edit_requested=true" target="_blank">Team Design</a></span></p>
                         <!-- <a role="button" class="apply-button" href="#">  <p>apply</p></a> -->
                     </div>
                 </div>
                 <div class="card2">
-                    <img class="img-fluid" src="images/Card2.webp" alt="alternative">
+                    <div class="card1">
+                        <img class="img-fluid" src="images/Card2.webp" alt="alternative">
+                        <ul  class="countdown" id="countdown">
+                            <li class="countdown-li" id="days">
+                              <div class="number">00</div>
+                              <div class="label">Days</div>
+                            </li>
+                            <li class="countdown-li" id="hours">
+                              <div class="number">00</div>
+                              <div class="label">Hours</div>
+                            </li>
+                            <li class="countdown-li" id="minutes">
+                              <div class="number">00</div>
+                              <div class="label">min</div>
+                            </li>
+                            <li class="countdown-li" id="seconds">
+                              <div class="number">00</div>
+                              <div class="label">Sec</div>
+                            </li>
+                          </ul>
+
+                    </div>
                 </div>
             </div> <!-- end of cards -->
         </div> <!-- end of header-content -->
@@ -517,6 +538,7 @@
     	
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/countdown.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
