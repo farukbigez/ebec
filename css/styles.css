@@ -2067,7 +2067,7 @@ select {
 		top: 80%;
 		margin: 0 auto;
 		padding: 15px 0 20px 0;
-		color: #EDA226;
+		color: #ffffff;
 		border: 1px solid #adafb2;
 		border-width: 1px 0;
 		overflow: hidden;
@@ -2082,7 +2082,7 @@ select {
     display: inline-block;
     width: 25%;
     font-size: 0px;
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: center;  
   }
 
