@@ -1102,26 +1102,31 @@ text-align: center;
 .basic-4 {
 	padding-top: 6.5rem;
 	padding-bottom: 6.75rem;
-	background: url('../images/download-background.jpg') center center no-repeat;
-	background-size: cover;
+	background: #ffffff;
 }
 
-.basic-4 .text-container {
-	margin-bottom: 3.5rem;
+.green-bg {
+	background: #c6e357;
+	width: 4em;
 	text-align: center;
 }
 
-.basic-4 h2 {
-	margin-bottom: 1.25rem;
+.table-p {
+	font-size: 22px;
+	line-height: 124%;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
-.basic-4 .p-large {
-	margin-bottom: 1.75rem;
+.basic-4  .col {
+	width: auto;
+	text-align: center;
 }
 
-.basic-4 .btn-solid-lg {
-	margin-right: 0.5rem;
-	margin-bottom: 1.25rem;
+.logo-table {
+	width: 4em;
 }
 
 /**********************************/
@@ -1150,6 +1155,7 @@ a:hover.back-to-top {
 /*****************************/
 /* Min-width width 768px */
 @media (min-width: 768px) {
+
 
 	/* General Styles */
 	.p-heading {
@@ -1422,7 +1428,7 @@ a:hover.back-to-top {
 	.basic-4 .text-container {
 		margin-top: 7rem;
 		margin-bottom: 0;
-		text-align: left;
+		text-align: center;
 	}
 	/* end of download */
 }
@@ -1729,6 +1735,10 @@ a:hover.back-to-top {
 }
 
 @media (max-width: 768px) {
+	.table-p {
+		font-size: 10.5px;
+
+	}
 
 	.card1 {
 		text-align: center;
