@@ -1669,7 +1669,7 @@ a:hover.back-to-top {
     border-radius: 5em;
     box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.25);
     border-style: solid;
-    border-width: 0.275rem;
+    border-width: 0.25rem;
     border-image-slice: 0;
     border-image-source: linear-gradient(to top, #0270bb, #c6e357, rgba(255, 153, 0, 0.9));
     background-origin: border-box;
@@ -1750,6 +1750,7 @@ a:hover.back-to-top {
 	}
 	.apply-button {
 		margin-top: 4.5em;
+		margin-right: 0.5em;
 		padding: 0.1em;
 		text-align: center;
 	}
